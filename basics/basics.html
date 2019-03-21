@@ -6,22 +6,31 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
     svg {
-      width: 1000px;
+      width: 1400px;
       height: 800px;
+    }
+
+    .center {
+      width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
 <body>
-  <h1>Temperatures for New York</h1>
-  <svg></svg>
+
+  <div class="center">
+    <h1>Temperatures for New York</h1>
+    <svg></svg>
+  </div>
 
   <script>
     d3.tsv(`data.tsv`, (err, data) => {
       if (err) throw err;
 
       const city = `New York`;
-      const width = 800;
-      const height = 300;
+      const width = 1400;
+      const height = 500;
       const margin = {top: 20, bottom: 20, left: 20, right: 20};
 
       const cleanData = data.map(d => ({
