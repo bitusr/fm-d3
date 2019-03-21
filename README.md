@@ -1,6 +1,6 @@
 # Repo for Shirley Wu d3 tutorials
 
-# Blocks - gists
+## Blocks - gists
 - [Play with the code](https://blockbuilder.org/sxywu/909992222842cdbda009006e456a23b0)
 
 ## Shirley Wu tutorials
